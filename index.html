@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="left_table table_wrapper">
+        <table id="tableLeft" class="table">
+          <tr class="skip">
+            <th>X</th>
+            <th>Y</th>
+          </tr>
+          <tr>
+            <td>
+              <input placeholder="X" type="number" value="3" />
+            </td>
+            <td>
+              <input placeholder="X" type="number" value="8" />
+            </td>
+            <td><button class="deleteButton">delete</button></td>
+          </tr>
+          <tr>
+            <td>
+              <input placeholder="X" type="number" value="2" />
+            </td>
+            <td>
+              <input placeholder="X" type="number" value="4" />
+            </td>
+            <td><button class="deleteButton">delete</button></td>
+          </tr>
+        </table>
+        <button id="addButtonLeft" class="addButton">Add</button>
+        <div class="chart-wrapper">
+          <svg class="chart" viewBox="0 0 100 100">
+            <polyline
+              id="polyline"
+              fill="none"
+              stroke="#0074d9"
+              stroke-width="1"
+            />
+            <text
+              x="0"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              0
+            </text>
+            <text
+              x="10"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              10
+            </text>
+            <text
+              x="20"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              20
+            </text>
+            <text
+              x="30"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              30
+            </text>
+            <text
+              x="40"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              40
+            </text>
+            <text
+              x="50"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              50
+            </text>
+            <text
+              x="60"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              60
+            </text>
+            <text
+              x="70"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              70
+            </text>
+            <text
+              x="80"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              80
+            </text>
+            <text
+              x="90"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              90
+            </text>
+            <text x="0" y="10" style="fill: rgb(128, 128, 128); font-size: 5px">
+              90
+            </text>
+            <text x="0" y="20" style="fill: rgb(128, 128, 128); font-size: 5px">
+              80
+            </text>
+            <text x="0" y="30" style="fill: rgb(128, 128, 128); font-size: 5px">
+              70
+            </text>
+            <text x="0" y="40" style="fill: rgb(128, 128, 128); font-size: 5px">
+              60
+            </text>
+            <text x="0" y="50" style="fill: rgb(128, 128, 128); font-size: 5px">
+              50
+            </text>
+            <text x="0" y="60" style="fill: rgb(128, 128, 128); font-size: 5px">
+              40
+            </text>
+            <text x="0" y="70" style="fill: rgb(128, 128, 128); font-size: 5px">
+              30
+            </text>
+            <text x="0" y="80" style="fill: rgb(128, 128, 128); font-size: 5px">
+              20
+            </text>
+            <text x="0" y="90" style="fill: rgb(128, 128, 128); font-size: 5px">
+              10
+            </text>
+          </svg>
+        </div>
+      </div>
+
+      <div class="middle_table table_wrapper">
+        <table id="tableMiddle" class="table">
+          <tr class="skip">
+            <th>X</th>
+            <th>Y</th>
+          </tr>
+          <tr>
+            <td>
+              <input placeholder="X" type="number" value="1" />
+            </td>
+            <td>
+              <input placeholder="X" type="number" value="4" />
+            </td>
+            <td><button class="deleteButton">delete</button></td>
+          </tr>
+          <tr>
+            <td>
+              <input placeholder="X" type="number" value="4" />
+            </td>
+            <td>
+              <input placeholder="X" type="number" value="4" />
+            </td>
+            <td><button class="deleteButton">delete</button></td>
+          </tr>
+        </table>
+        <button id="addButtonRight" class="addButton">Add</button>
+        <div class="chart-wrapper">
+          <svg class="chart" viewBox="0 0 100 100">
+            <polyline
+              id="polyline"
+              fill="none"
+              stroke="#0074d9"
+              stroke-width="1"
+            />
+            <text
+              x="0"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              0
+            </text>
+            <text
+              x="10"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              10
+            </text>
+            <text
+              x="20"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              20
+            </text>
+            <text
+              x="30"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              30
+            </text>
+            <text
+              x="40"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              40
+            </text>
+            <text
+              x="50"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              50
+            </text>
+            <text
+              x="60"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              60
+            </text>
+            <text
+              x="70"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              70
+            </text>
+            <text
+              x="80"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              80
+            </text>
+            <text
+              x="90"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              90
+            </text>
+            <text x="0" y="10" style="fill: rgb(128, 128, 128); font-size: 5px">
+              90
+            </text>
+            <text x="0" y="20" style="fill: rgb(128, 128, 128); font-size: 5px">
+              80
+            </text>
+            <text x="0" y="30" style="fill: rgb(128, 128, 128); font-size: 5px">
+              70
+            </text>
+            <text x="0" y="40" style="fill: rgb(128, 128, 128); font-size: 5px">
+              60
+            </text>
+            <text x="0" y="50" style="fill: rgb(128, 128, 128); font-size: 5px">
+              50
+            </text>
+            <text x="0" y="60" style="fill: rgb(128, 128, 128); font-size: 5px">
+              40
+            </text>
+            <text x="0" y="70" style="fill: rgb(128, 128, 128); font-size: 5px">
+              30
+            </text>
+            <text x="0" y="80" style="fill: rgb(128, 128, 128); font-size: 5px">
+              20
+            </text>
+            <text x="0" y="90" style="fill: rgb(128, 128, 128); font-size: 5px">
+              10
+            </text>
+          </svg>
+        </div>
+      </div>
+
+      <div class="right_table table_wrapper">
+        <table id="tableRight" class="table">
+          <tr class="skip">
+            <th>X</th>
+            <th>Y</th>
+          </tr>
+          <tr>
+            <td>
+              <input placeholder="X" type="number" />
+            </td>
+            <td>
+              <input placeholder="X" type="number" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input placeholder="X" type="number" />
+            </td>
+            <td>
+              <input placeholder="X" type="number" />
+            </td>
+          </tr>
+        </table>
+        <button class="button" id="calculateButton">
+          Calculate and generate graphs
+        </button>
+        <div class="chart-wrapper">
+          <svg class="chart" viewBox="0 0 100 100">
+            <polyline
+              id="polyline"
+              fill="none"
+              stroke="#0074d9"
+              stroke-width="1"
+            />
+            <text
+              x="0"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              0
+            </text>
+            <text
+              x="10"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              10
+            </text>
+            <text
+              x="20"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              20
+            </text>
+            <text
+              x="30"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              30
+            </text>
+            <text
+              x="40"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              40
+            </text>
+            <text
+              x="50"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              50
+            </text>
+            <text
+              x="60"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              60
+            </text>
+            <text
+              x="70"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              70
+            </text>
+            <text
+              x="80"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              80
+            </text>
+            <text
+              x="90"
+              y="100"
+              style="fill: rgb(128, 128, 128); font-size: 5px"
+            >
+              90
+            </text>
+            <text x="0" y="10" style="fill: rgb(128, 128, 128); font-size: 5px">
+              90
+            </text>
+            <text x="0" y="20" style="fill: rgb(128, 128, 128); font-size: 5px">
+              80
+            </text>
+            <text x="0" y="30" style="fill: rgb(128, 128, 128); font-size: 5px">
+              70
+            </text>
+            <text x="0" y="40" style="fill: rgb(128, 128, 128); font-size: 5px">
+              60
+            </text>
+            <text x="0" y="50" style="fill: rgb(128, 128, 128); font-size: 5px">
+              50
+            </text>
+            <text x="0" y="60" style="fill: rgb(128, 128, 128); font-size: 5px">
+              40
+            </text>
+            <text x="0" y="70" style="fill: rgb(128, 128, 128); font-size: 5px">
+              30
+            </text>
+            <text x="0" y="80" style="fill: rgb(128, 128, 128); font-size: 5px">
+              20
+            </text>
+            <text x="0" y="90" style="fill: rgb(128, 128, 128); font-size: 5px">
+              10
+            </text>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
